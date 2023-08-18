@@ -16,7 +16,7 @@ namespace WebAPIExercicio02Aula02.Controllers
         }
 
         [HttpPost("SucessorAntecessorNumero")]
-        public ActionResult<string> AntecessorSucessorNumero(int numero) //aqui eu coloco as variaveis de entrada
+        public ActionResult<string> AntecessorSucessorNumero(int numero) //aqui eu coloco as variaveis de entrada.
         {
             int antecessor, sucessor;
             antecessor = numero - 1;
